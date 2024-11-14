@@ -7,7 +7,7 @@
 Convert pcap from SLL2 (Linux cooked capture v2) to Ethernet
 
 ## Prerequisite
-To run the code provided, you need to install Python and the Scapy library
+To run the code provided, you need to install Python and the **Scapy** library (https://scapy.net)
 
 1. Install Python
 ```bash
