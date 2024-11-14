@@ -1,3 +1,8 @@
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![Generic badge](https://img.shields.io/badge/Python-green.svg)](https://www.python.org/)
+[![Generic badge](https://img.shields.io/badge/Networking-orange.svg)](networking)
+
+
 # SLLv2-to-eth
 Convert pcap from SLL2 (Linux cooked capture v2) to Ethernet
 
