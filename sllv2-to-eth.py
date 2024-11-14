@@ -40,6 +40,7 @@ for pkt in packets:
     if pkt.haslayer("Raw"):
         # Create a new Ethernet frame with specified MACs and original packet payload
         eth_pkt = Ether(src=args.src_mac, dst=args.dst_mac) / pkt.payload
+        eth_pkt.time = pkt.time  # Keep the original timestamp
         eth_packets.append(eth_pkt)
 
 # Write the new packets to the output Ethernet PCAP file
